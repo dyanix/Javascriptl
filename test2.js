@@ -22,12 +22,16 @@ let loggedIn = "1"
 
 let convertinBoolean = Boolean(loggedIn)
 
-console.log(typeof loggedIn);  //number
+// console.log(typeof loggedIn);  //number
 
-console.log( convertinBoolean);  // true
+// console.log( convertinBoolean);  // true
 // 1 => true
 // 0 => false
 // "" => false
 // "has" =>  true
 
 
+let space = " "
+
+console.log(space); 
+console.log(typeof space);
