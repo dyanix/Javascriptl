@@ -24,4 +24,5 @@ prefer not to use var b/c issue in block scope and functional scope
 
 */
 
-console.table([accountId,email,password,city,accountState])
+console.table([accountId,email,password,city,accountState ])
+
