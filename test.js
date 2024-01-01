@@ -20,7 +20,7 @@ password = 'q23e323'
 city="bengluru"
 /*
 prefer not to use var b/c issue in block scope and functional scope
-
+refer test9.js
 
 */
 
