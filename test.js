@@ -26,3 +26,13 @@ prefer not to use var b/c issue in block scope and functional scope
 
 console.table([accountId,email,password,city,accountState ])
 
+
+
+
+// Nan casse example
+function addTwoNum(num1,num2){
+    console.log(num1+num2);
+
+}
+
+addTwoNum()
