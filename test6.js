@@ -63,3 +63,31 @@ console.log(Object.keys(tinderUser));
 console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser));
 console.log(Object.hasOwnProperty("name"));
+
+
+console.log("////////////////////");
+
+
+
+// object destructure also can analogy with props witten in {} except props.xyz
+
+const course = {
+    courseNmae:"Js",
+    price:99,
+    courseInstructor:"Histesh Sir"
+}
+
+
+// method 1 general
+
+console.log(course.courseInstructor);
+
+//method 2
+
+const {courseInstructor} = course
+console.log(courseInstructor);
+
+// instructor can also be written as in place of course instructor w
+
+const {courseInstructor:instructor} = course
+console.log(instructor);
