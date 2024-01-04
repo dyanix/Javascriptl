@@ -38,7 +38,7 @@ const user = {
 //     let name="dyanesh"
 //     console.log(this.name);
 // }
-
+// chai()
 
 
 // const chai = ()=>{
