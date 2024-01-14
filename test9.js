@@ -1,6 +1,6 @@
 //scope
 
-//let const is bl;ock scope
+//let const is block scope
 //var is functional scope
 
 // let a=10;
