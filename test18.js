@@ -9,5 +9,7 @@ setTimeout(()=>{
 
 },5000)
 
+var ans = fetch(`https://randomuser.me/api/`)
+console.log(ans);
 
 console.log("second execution");

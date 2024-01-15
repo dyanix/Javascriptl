@@ -58,3 +58,6 @@
 
 // },5000)
 
+//ES modules is there to share the code between files export and import
+
+//bundler when js files are too big it can cause pageload and measured by network waterfall then we use bundler like vite 
