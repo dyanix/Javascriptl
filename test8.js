@@ -66,6 +66,11 @@ function calculateCartPrice(val1,val2,...num){
 
 console.log(calculateCartPrice(300,3434,232,434));
 
+function sum(...numbers) {
+    return numbers.reduce((acc, num) => acc + num, 0);
+  }
+  
+const res = sum(1, 2, 3, 4, 5); // 15
 
 //passing object in function
 
