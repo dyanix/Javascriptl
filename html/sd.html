@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .card-container {
+            position: relative;
+            width: 300px;
+            height: 450px;
+        }
+
+        .card {
+            position: absolute;
+            width: 100%;
+            background-color: #e0e0e0;
+            border: 1px solid #ccc;
+            padding: 20px;
+            cursor: pointer;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .card:nth-child(1) {
+            z-index: 3;
+            transform: translateY(0);
+        }
+
+        .card:nth-child(2) {
+            z-index: 2;
+            transform: translateY(30px);
+        }
+
+        .card:nth-child(3) {
+            z-index: 1;
+            transform: translateY(60px);
+        }
+    </style>
+</head>
+<body>
+
+<div class="card-container">
+    <div class="card" onclick="bringToFront(this)">Card 1</div>
+    <div class="card" onclick="bringToFront(this)">Card 2</div>
+    <div class="card" onclick="bringToFront(this)">Card 3</div>
+</div>
+
+<script>
+    function bringToFront(card) {
+        var highestZIndex = 0;
+        var cards = document.querySelectorAll('.card');
+        cards.forEach(function (c) {
+            var zIndex = parseInt(window.getComputedStyle(c).zIndex);
+            highestZIndex = Math.max(highestZIndex, zIndex);
+        });
+
+        card.style.zIndex = highestZIndex + 1;
+    }
+</script>
+
+</body>
+</html>
