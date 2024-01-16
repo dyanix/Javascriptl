@@ -3,16 +3,16 @@
 
 
 
-const user = {
-    username:"Dyanesh",
-    Price:232,
+// const user = {
+//     username:"Dyanesh",
+//     Price:232,
 
-    welcomeMessage:function(){
-        console.log(`${this.username},welcome`);
-        console.log(this);
-    }
+//     welcomeMessage:function(){
+//         console.log(`${this.username},welcome`);
+//         console.log(this);
+//     }
 
-}
+// }
 
 
 // user.welcomeMessage()
@@ -60,9 +60,12 @@ const user = {
 
 //implicit arrow function
 
-const addtwo = (num1,num2) =>  ( num1+num2)
+// const addtwo = (num1,num2) =>  ( num1+num2)
 
 
 
 
-console.log(addtwo(3,4));
+// console.log(addtwo(3,4));
+
+
+
