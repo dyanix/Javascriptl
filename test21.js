@@ -9,6 +9,32 @@
 // var age = 20
 // console.log("Age is",age);
 
-// age=100
-console.log("Age is",age);
-let age=30
+
+
+
+//temporal deadzone(let , const)
+// age = 100
+// console.log("Age is", age);
+// let age = 30
+
+
+
+
+
+myfunc()
+
+
+var myfunc = function(){
+    console.log("First");
+}
+
+myfunc()
+
+
+function myfunc() {
+    console.log("Second");
+}
+
+myfunc()
+
+
